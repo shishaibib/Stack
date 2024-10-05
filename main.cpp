@@ -22,7 +22,18 @@ int main()
     Push_Stack(&stk, 300);
     Dump_Stack(&stk);
 
-    Pop(&stk/*, &error_code*/);//
+    Calculate_Hash(&stk);
+
+    Push_Stack(&stk, 400);
+    Dump_Stack(&stk);
+
+    Push_Stack(&stk, 500);
+    Dump_Stack(&stk);
+
+    Push_Stack(&stk, 600);
+    Dump_Stack(&stk);
+
+    Pop_Stack(&stk);
     Dump_Stack(&stk);
 
     Dtor_Stack(&stk);
